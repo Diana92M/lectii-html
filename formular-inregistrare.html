@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formular Inregistrare in HTML</title>
+</head>
+<body bgcolor="#DDD">
+  <h1 align="center">INREGISTRARE</h1>
+<form action="confirmare.html">
+<table align="center" cellpadding="10" bgcolor="white">
+  <tr>
+    <td><label for="nume-prenume" >Nume Prenume</label></td>
+    <td><input id="nume-prenume" autofocus maxlengh="20" required pattern="[A-Za-z]{3,10} [A-Za-z]{3,10}"/></td>
+  </tr>
+  <tr>
+    <td><label for="data-nasterii">Data Nasterii</label></td>
+    <td><input id="data-nasterii" type="date" autofocus required/></td>
+  </tr>
+  <tr>
+    <td><label for="">Gen</label></td>
+    <td><input type="radio" name="gen" required>M <br>
+        <input type="radio" name="gen" required>F <br>
+        <input type="radio" name="gen" required>N
+    </td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="email"/></td>
+  </tr>
+  <tr>
+    <td><label for="ocupatie">Ocupatie</label></td>
+    <td><select name="" id="" required>
+      <option value="">Student</option>
+      <option value="">Somer</option>
+      <option value="">Pensionar</option>
+      <option value="">Angajat</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">   <label for="">Descrie-te in citeva cuvinte</label><br/><textarea rows="8" cols="50"></textarea></td>
+
+  </tr>
+  <tr>
+    <td align="center"><input type="checkbox" checked> </td>
+    <td><label for=""><b>Am citit <a href="regulament.html" target="_blank">regulamentul</a>  siteului, si sunt de acord cu conditiile.</b></label></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"> <button type="submit">REGISTER</button></td>
+  </tr>
+</table>
+
+</form>
+
+
+
+</body>
+</html>
